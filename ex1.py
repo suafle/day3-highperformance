@@ -95,4 +95,9 @@ print(equal)
 print('\n')
 
 #Ex m
-
+Z = np.arange(10, dtype=np.int32)
+print('Output exercise 1m')
+print(Z.dtype)
+Z = np.float32(Z)
+print(Z.dtype)
+print('\n')

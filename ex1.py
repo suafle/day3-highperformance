@@ -75,8 +75,9 @@ print('\n')
 
 #Ex j
 Z = np.arange(11)
+Z[3:9] = -1*Z[3:9]
 print('Output exercise 1j')
-print(Z[[0,1,9,10]])
+print(Z)
 print('\n')
 
 #Ex k
@@ -100,4 +101,13 @@ print('Output exercise 1m')
 print(Z.dtype)
 Z = np.float32(Z)
 print(Z.dtype)
+print('\n')
+
+#Ex n
+A = np.arange(9).reshape(3,3)
+B = A + 1
+C = np.dot(A,B)
+D = np.diag(C)
+print('Output exercise 1n')
+print(D)
 print('\n')

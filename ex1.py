@@ -51,8 +51,17 @@ weird_mat[0,:] = 1
 weird_mat[-1,:] = 1
 weird_mat[:,0] = 1
 weird_mat[:,-1] = 1
-print('Output exercise 1f')
+print('Output exercise 1g')
 print(weird_mat)
 print('\n')
 
-
+#Ex h
+checkboard = np.zeros((8,8))
+print('Output exercise 1g')
+for i in range(len(checkboard)):
+    if i%2==0:
+        checkboard[i][::2] = 1
+    else:
+        checkboard[i][1::2] = 1
+print(checkboard)
+print('\n')

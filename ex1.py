@@ -57,11 +57,42 @@ print('\n')
 
 #Ex h
 checkboard = np.zeros((8,8))
-print('Output exercise 1g')
 for i in range(len(checkboard)):
     if i%2==0:
         checkboard[i][::2] = 1
     else:
         checkboard[i][1::2] = 1
+print('Output exercise 1h')
 print(checkboard)
 print('\n')
+
+#Ex i
+a = np.array([[1,0],[0,1]])
+tile = np.tile(a,(4,4))
+print('Output exercise 1i')
+print(tile)
+print('\n')
+
+#Ex j
+Z = np.arange(11)
+print('Output exercise 1j')
+print(Z[[0,1,9,10]])
+print('\n')
+
+#Ex k
+Z = np.random.random(10)
+Z = np.sort(Z)
+print('Output exercise 1k')
+print(Z)
+print('\n')
+
+#Ex l
+A = np.random.randint(0,2,5)
+B = np.random.randint(0,2,5)
+equal = np.array_equal(A,B)
+print('Output exercise 1l')
+print(equal)
+print('\n')
+
+#Ex m
+

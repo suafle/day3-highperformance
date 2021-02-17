@@ -21,3 +21,7 @@ mat = np.arange(0,9).reshape(3,3)
 print(mat)
 
 #Ex e
+array = np.array([1,2,0,0,4,0])
+#loc = array!=0 #this gives an array of booleans
+loc = np.where(array!=0)
+print(loc[0])

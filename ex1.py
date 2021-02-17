@@ -46,3 +46,13 @@ print('Mean = ',mean)
 print('\n')
 
 #Ex g
+weird_mat = np.zeros((5,5))
+weird_mat[0,:] = 1
+weird_mat[-1,:] = 1
+weird_mat[:,0] = 1
+weird_mat[:,-1] = 1
+print('Output exercise 1f')
+print(weird_mat)
+print('\n')
+
+

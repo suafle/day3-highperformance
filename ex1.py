@@ -15,3 +15,9 @@ print(vector)
 #Priting null and vector reverted
 print(null[::-1])
 print(vector[::-1])
+
+#Ex d
+mat = np.arange(0,9).reshape(3,3)
+print(mat)
+
+#Ex e
